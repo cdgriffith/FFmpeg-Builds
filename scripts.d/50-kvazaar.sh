@@ -16,8 +16,6 @@ ffbuild_dockerbuild() {
     git-mini-clone "$KVAZAAR_REPO" "$KVAZAAR_COMMIT" kvazaar
     cd kvazaar
 
-    --disable-shared
-
     local myconf=(
         --prefix="$FFBUILD_PREFIX"
         --disable-shared
