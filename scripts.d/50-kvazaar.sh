@@ -42,9 +42,9 @@ ffbuild_dockerbuild() {
 }
 
 ffbuild_configure() {
-    echo --enable-kvazaar
+    echo --enable-libkvazaar
 }
 
 ffbuild_unconfigure() {
-    echo --disable-kvazaar
+    echo --disable-libkvazaar
 }
